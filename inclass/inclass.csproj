@@ -43,8 +43,16 @@
     <Reference Include="System.Xml" />
   </ItemGroup>
   <ItemGroup>
+    <Compile Include="EmailFactory.cs" />
+    <Compile Include="EmailNotification.cs" />
+    <Compile Include="INotification.cs" />
+    <Compile Include="NotificationFactory.cs" />
     <Compile Include="Program.cs" />
     <Compile Include="Properties\AssemblyInfo.cs" />
+    <Compile Include="PushFactory.cs" />
+    <Compile Include="PushNotification.cs" />
+    <Compile Include="SmsFactory.cs" />
+    <Compile Include="SmsNotification.cs" />
   </ItemGroup>
   <ItemGroup>
     <None Include="App.config" />
